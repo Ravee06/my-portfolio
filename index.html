@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravindran T - Graphic Designer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="lightbox.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="lightbox-plus-jquery.js"></script>
+    <style>
+        .whatsapp-btn,
+        .call-btn {
+            position: fixed;
+            bottom: 50px;
+            width: 50px;
+            height: 50px;
+            padding: 10px;
+            border: none;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            z-index: 9999;
+        }
+
+        .whatsapp-btn {
+            right: 80px;
+            background-color: #25d366;
+            color: #fff;
+        }
+
+        .call-btn {
+            right: 20px;
+            background-color: #34b7f1;
+            color: #fff;
+            transform: scaleX(-1);
+        }
+
+        .whatsapp-btn i {
+            font-size: 32px;
+        }
+		
+        .call-btn i {
+            font-size: 26px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+            <a href="#home">Home</a> | 
+            <a href="#about">About</a> | 
+            <a href="#works">My Works</a> | 
+            <a href="#contact">Contact Me</a>
+        </div>
+    </div>
+    
+    <div id="home" class="intro">
+        <div class="overlay"></div>
+        <div class="intro-text">
+            <h1>Ravindran T<br>Graphic Designer</h1>
+        </div>
+    </div>
+    
+    <div id="about" class="about">
+        <div class="about-content">
+            <div class="about-image">
+                <img src="about.jpg" alt="Ravindran T">
+            </div>
+            <div class="about-text">
+                <h2>Learn More About Me</h2>
+                <h3>Myself & Ravindran T</h3>
+                <p>I'm From Chengalpet, I've completed my UG Degree (B.com) in Madras University.</p>
+                <ul>
+                    <li><strong>Birthday:</strong> 06 APR 1985</li>
+                    <li><strong>Age:</strong> 39</li>
+                    <li><strong>Website:</strong> <a href="http://raveedesign.co.in">ravee.design.co.in</a></li>
+                    <li><strong>Phone:</strong> +91 98413 15584</li>
+                    <li><strong>City:</strong> Chengalpet, India</li>
+                    <li><strong>Degree:</strong> B.com</li>
+                    <li><strong>Email:</strong> ravee.design@gmail.com</li>
+                    <li><strong>Freelance:</strong> Available</li>
+                </ul>
+                <div class="about-stats">
+                    <h2>Software Skills</h2>
+                    <div>
+                        <h4>90%</h4>
+                        <p>Photoshop</p>
+                    </div>
+                    <div>
+                        <h4>100%</h4>
+                        <p>Corel draw</p>
+                    </div>
+                    <div>
+                        <h4>80%</h4>
+                        <p>After Effects</p>
+                    </div>
+                    <div>
+                        <h4>80%</h4>
+                        <p>Premier pro</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="works" class="works">
+        <h2>My Works</h2>
+        <div class="tabs">
+            <button class="tablink" onclick="openTab(event, 'logo')">Logo Design</button>
+            <button class="tablink" onclick="openTab(event, 'social')">Social Media Posts</button>
+            <button class="tablink" onclick="openTab(event, 'print')">Print Design</button>
+            <button class="tablink" onclick="openTab(event, 'video')">Video Creation</button>
+        </div>
+        <div id="logo" class="tab-content">
+            <a href="brand bloom logo.jpg" data-lightbox="logo"><img src="brand bloom logo.jpg" alt="Logo 1"></a>
+            <a href="bamboo1.jpg" data-lightbox="logo"><img src="bamboo1.jpg" alt="Logo 2"></a>
+            <a href="KARTO WORLD LOGO.jpg" data-lightbox="logo"><img src="KARTO WORLD LOGO.jpg" alt="Logo 3"></a>
+            <a href="AUTONOME LOGO.jpg" data-lightbox="logo"><img src="AUTONOME LOGO.jpg" alt="Logo 4"></a>
+            <a href="alison logo2.jpg" data-lightbox="logo"><img src="alison logo2.jpg" alt="Logo 5"></a>
+            <a href="SIZZLE LOGO2.jpg" data-lightbox="logo"><img src="SIZZLE LOGO2.jpg" alt="Logo 6"></a>
+            <a href="shenzhen logo.jpg" data-lightbox="logo"><img src="shenzhen logo.jpg" alt="Logo 7"></a>
+            <a href="ROSS CIRCLE LOGO.jpg" data-lightbox="logo"><img src="ROSS CIRCLE LOGO.jpg" alt="Logo 8"></a>
+            <a href="sushi zen2.png" data-lightbox="logo"><img src="sushi zen2.png" alt="Logo 9"></a>
+        </div>
+        <div id="social" class="tab-content">
+            <a href="Social media post1.jpg" data-lightbox="social"><img src="Social media post1.jpg" alt="Social Media Post 1"></a>
+            <a href="kanchi ad design.jpg" data-lightbox="social"><img src="kanchi ad design.jpg" alt="Social Media Post 2"></a>
+            <a href="1.jpg" data-lightbox="social"><img src="1.jpg" alt="Social Media Post 3"></a>
+            <a href="2.jpg" data-lightbox="social"><img src="2.jpg" alt="Social Media Post 4"></a>
+            <a href="E1.jpg" data-lightbox="social"><img src="E1.jpg" alt="Social Media Post 5"></a>
+            <a href="E2.jpg" data-lightbox="social"><img src="E2.jpg" alt="Social Media Post 6"></a>
+            <a href="K1.jpg" data-lightbox="social"><img src="K1.jpg" alt="Social Media Post 7"></a>
+            <a href="K2.jpg" data-lightbox="social"><img src="K2.jpg" alt="Social Media Post 8"></a>
+            <a href="A1.jpg" data-lightbox="social"><img src="A1.jpg" alt="Social Media Post 9"></a>
+            <a href="A2.jpg" data-lightbox="social"><img src="A2.jpg" alt="Social Media Post 10"></a>
+            <a href="A3.jpg" data-lightbox="social"><img src="A3.jpg" alt="Social Media Post 11"></a>
+        </div>
+        <div id="print" class="tab-content">
+            <a href="B1.jpg" data-lightbox="print"><img src="B1.jpg" alt="Print Design 1"></a>
+            <a href="B2.jpg" data-lightbox="print"><img src="B2.jpg" alt="Print Design 2"></a>
+            <a href="B3.jpg" data-lightbox="print"><img src="B3.jpg" alt="Print Design 3"></a>
+            <a href="B4.jpg" data-lightbox="print"><img src="B4.jpg" alt="Print Design 4"></a>
+            <a href="B5.jpg" data-lightbox="print"><img src="B5.jpg" alt="Print Design 5"></a>
+            <a href="B6.jpg" data-lightbox="print"><img src="B6.jpg" alt="Print Design 6"></a>
+            <a href="B7.jpg" data-lightbox="print"><img src="B7.jpg" alt="Print Design 7"></a>
+            <a href="B8.jpg" data-lightbox="print"><img src="B8.jpg" alt="Print Design 8"></a>
+            <a href="B9.jpg" data-lightbox="print"><img src="B9.jpg" alt="Print Design 9"></a>
+        </div>
+        <div id="video" class="tab-content">
+            <video controls>
+                <source src="video1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video controls>
+                <source src="video2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <div id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>+91 984315584</p>
+        <p>ravee.design@gmail.com</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=61560017183404"><img src="facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/brandbloomgraphics06/"><img src="instagram.png" alt="Instagram"></a>
+            <a href="https://www.linkedin.com/in/brandbloom-graphics-571a6a30a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BNhPavf7ERleBJcSy3uHuTQ%3D%3D"><img src="linkedin.png" alt="LinkedIn"></a>
+        </div>
+    </div>
+
+    <button class="whatsapp-btn" onclick="openWhatsApp()">
+        <i class="fab fa-whatsapp"></i>
+    </button>
+
+    <button class="call-btn" onclick="makePhoneCall()">
+        <i class="fas fa-phone-alt"></i>
+    </button>
+
+    <script>
+        function openWhatsApp() {
+            window.open('https://wa.me/9841315584', '_blank');
+        }
+
+        function makePhoneCall() {
+            window.location.href = 'tel:+919841315584';
+        }
+
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+        document.getElementsByClassName("tablink")[0].click();
+    </script>
+</body>
+</html>
